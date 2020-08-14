@@ -1,8 +1,9 @@
-import { StyleSheet } from 'react-native';
+import { StyleSheet, ColorPropType } from 'react-native';
 
-const styles = StyleSheet.create({
+
+const styles = StyleSheet.create ({
+
     container: {
-        
         flex: 1,
         flexDirection: 'row',
         backgroundColor: '#8257E5',
@@ -13,48 +14,36 @@ const styles = StyleSheet.create({
     },
 
     content: {
+        alignItems: 'center',
         flex: 1,
         justifyContent: 'center',
-
     },
-    
+
     title: {
         fontFamily: 'Archivo_700Bold',
         color: '#FFF',
-        fontSize: 32,
-        lineHeight: 37,
-        maxWidth: 150,
-        
-    },
-    
-    description: {
-        marginTop: 24,
-        color: '#d4c2ff',
-        fontSize: 16,
-        lineHeight: 26,
-        fontFamily: 'Poppins_400Regular',
-        maxWidth: 240,
-        
+        fontSize: 37,
+        lineHeight: 40,
+        maxWidth: 220,
     },
 
     okButton: {
-        marginTop: 200,
+        marginTop: 10,
         alignItems: 'center',
         justifyContent: 'center',
-        marginVertical: 40,
         backgroundColor: '#04d361',
         height: 58,
         borderRadius: 8,
+        width: '100%'
     },
 
     okButtonText: {
         
         color: '#FFF',
-        fontSize: 16,
+        fontSize: 20,
         fontFamily: 'Archivo_700Bold',
-    }
+    },
+    
 });
-
-
 
 export default styles;
