@@ -17,6 +17,7 @@ function TeacherList(){
         setIsFiltersVisible(!isFiltersVisible);
     }
 
+
     return (
         <View style={styles.container}>
             <PageHeader 
@@ -53,7 +54,7 @@ function TeacherList(){
 
                 </View>
 
-                <RectButton style={styles.submitButton}>
+                <RectButton onPress={handleToggleFiltersVisible} style={styles.submitButton}>
                     <Text style={styles.submitButtonText}>Filtrar</Text>
                 </RectButton>
                 </View>
