@@ -3,11 +3,6 @@ import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
 
-    title: {
-        backgroundColor: '#000',
-        color: '#000'
-    },
-
     description: {
         marginBottom: 50,
         color: '#d4c2ff',
@@ -21,11 +16,6 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: '#f0f0f7',
-        
-    },
-
-    teacherList: {
-        marginTop: -40,
         
     },
 

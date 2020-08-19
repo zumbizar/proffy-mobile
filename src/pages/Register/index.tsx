@@ -1,13 +1,12 @@
 import React, { useState } from 'react';
-import { View, Text, Input } from 'native-base';
+import { View, Text } from 'native-base';
 import { useNavigation } from '@react-navigation/native';
 
 
 
 import styles from './styles';
 import PageHeader from '../../components';
-import { BorderlessButton, TextInput, RectButton, ScrollView } from 'react-native-gesture-handler';
-import TeacherItem from '../../components/TeacherItem';
+import { TextInput, RectButton, ScrollView } from 'react-native-gesture-handler';
 
 
 
