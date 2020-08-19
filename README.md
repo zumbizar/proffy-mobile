@@ -12,7 +12,7 @@ This project was made using the follow technologies:
 
 <ul>
 
-<li>Typescrip</li>
+<li>Typescript</li>
 <li>React-Native</li>
 <li>Expo</li>
 <li>Javascript</li>
