@@ -1,7 +1,7 @@
 # OLÁ MUNDO, Fernando here :fire:
 
 
-Esse é um dos projetos da semana #NLW2. App Proffy com React Native & Tyepscrip :rocket:
+
 
 ## Alguns Spoiler do projeto :eyes:
 
@@ -13,9 +13,9 @@ This project was made using the follow technologies:
 <ul>
 
 <li>Typescrip</li>
-<li>React</li>
+<li>React-Native</li>
 <li>Expo</li>
-<li>Express</li>
+<li>Javascript</li>
 
 </ul>
 
